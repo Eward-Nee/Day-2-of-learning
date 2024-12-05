@@ -1,0 +1,29 @@
+header {
+    border-bottom: 4px hsl(0, 100%, 63%) dashed;
+    color: rgb(173, 155, 255);
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 4px hsl(251, 98%, 61%) dashed;
+    color: rgb(255, 155, 155);
+    margin-top: 20px;
+}
+
+main {
+    color: rgb(155, 227, 255);
+}
+
+body {
+    background-color: hsl(244, 42%, 7%);
+}
+
+#email {
+    color: hsl(84, 97%, 54%);
+}
+
+div {
+    border: 4PX double rgb(220, 255, 122);
+    height: 200PX;
+    overflow: auto;
+}

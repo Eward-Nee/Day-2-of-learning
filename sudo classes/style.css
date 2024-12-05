@@ -1,0 +1,44 @@
+body {
+    background-image: url(img/IMG_20231215_165323-01.jpeg);
+    background-repeat: no-repeat;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#hol:hover {
+    color: aqua;
+}
+
+li:active {
+    background-color: yellowgreen;
+    color: black;
+}
+
+/*Sudo class: name:action or name:not(:action) */
+
+li:not(:hover) {
+    color: brown;
+}
+
+
+li:nth-child(4n) {
+    color: gray;
+}
+
+h1 {
+    color: tomato;
+}
+
+#Greetings #greet {
+    color: azure;
+    display: none;
+}
+
+#Greetings:hover #greet {
+    color: turquoise;
+    display: block;
+}
+
+/* the nth-child(x): The xth listed item, x=number or xn or
+odd and even is also options */

@@ -1,0 +1,36 @@
+footer{
+    color: salmon;
+    font-style: italic;
+    font-size: smaller;
+}
+/*This is where the external method css code lies for the footer
+tags in the html file. Note that the html file must be connected with 
+the css file with link tags, but not vise fersa*/
+
+#par{
+    color: aqua;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#email{
+    color: yellowgreen;
+}
+
+/* To only apply css code to a spicific tag, apply a id to it.
+Then refrence that id with a (# + idname). Then apply your css code inbetween the
+( {brackets} ) */
+
+/* When working with classes, you use a . then the name of the class. */
+
+.yes{
+    color: hsl(33, 100%, 88%);
+}
+
+.no{
+    color: deepskyblue;
+}
+
+.body{
+    background-color: rgb(53, 53, 53);
+}

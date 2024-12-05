@@ -1,0 +1,33 @@
+body {
+    background-color: hsl(250, 16%, 7%);
+}
+
+/* When importing a local font, use font face. Do not try to import it in the html file. */
+
+@font-face {
+    font-family: freedom;
+    src: url(/fonts/fonts/EduAUVICWANTArrows-Regular.ttf);
+}
+
+#Title {
+    color: hsl(120, 100%, 50%);
+    font-family: "yuji mai", Arial;
+}
+
+.even {
+    color: hsl(0, 100%, 67%);
+    /* Use "" when a font family name is more than two words. */
+    font-family: freedom;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    /* 16 px on the standerd */
+}
+
+.odd {
+    color: rgb(91, 91, 255);
+    font-size: 0.8em;
+    font-weight: bold;
+    font-style: normal;
+    /*1 em is the standerd. */
+}

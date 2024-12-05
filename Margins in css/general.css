@@ -1,0 +1,40 @@
+header {
+    border-bottom: 4px double greenyellow;
+    color: wheat;
+}
+
+body {
+    background-color: hsl(240, 24%, 8%);
+}
+
+#par {
+
+    font: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: aquamarine;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+/* margin = auto means that the object will stay in the center of the page. */
+/* Margins is the space around an element */
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 6px dashed hsl(115, 100%, 70%);
+}
+
+#box1 {
+    margin-left: auto;
+    background-color: rgb(176, 182, 95);
+    box-shadow: 7px 7px 4px rgb(0, 0, 0);
+}
+
+#box2 {
+    margin: 20px;
+    background-color: rgb(83, 151, 151);
+    box-shadow: 10px 10px 2px rgb(0, 0, 0);
+}

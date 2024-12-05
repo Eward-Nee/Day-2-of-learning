@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(17, 17, 31);
+
+}
+
+.h {
+    border: 4px solid rgb(51, 255, 51);
+    text-align: center;
+    color: aqua;
+}
+
+main {
+    color: wheat;
+    border: 4px gainsboro double;
+    display: flow-root;
+
+    /* display: flow-root forses elements in a border to stay in the border.*/
+}
+
+/* The float property allows elements to flow around itself */
+
+#img1 {
+    float: left;
+    margin-right: 20px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 20px;
+}
